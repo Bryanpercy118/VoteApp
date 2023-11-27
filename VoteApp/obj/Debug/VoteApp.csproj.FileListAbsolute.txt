@@ -18,3 +18,23 @@ C:\Users\bryan\source\repos\VoteApp\VoteApp\obj\Debug\VoteApp.pdb
 C:\Users\bryan\source\repos\VoteApp\VoteApp\obj\Debug\VoteApp.RegisterUser.resources
 C:\Users\bryan\source\repos\VoteApp\VoteApp\obj\Debug\VoteApp.Eleccion.resources
 C:\Users\bryan\source\repos\VoteApp\VoteApp\obj\Debug\VoteApp.RegisterCandidate.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\VoteApp.exe.config
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\VoteApp.exe
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\VoteApp.pdb
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\BLL.dll
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\ENTITY.dll
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\DAL.dll
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\BLL.pdb
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\ENTITY.pdb
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\bin\Debug\DAL.pdb
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.csproj.AssemblyReference.cache
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.Eleccion.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.Form1.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.Properties.Resources.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.RegisterCandidate.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.RegisterUser.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.csproj.GenerateResource.cache
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.csproj.CopyComplete
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.exe
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.pdb
