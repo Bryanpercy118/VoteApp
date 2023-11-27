@@ -36,10 +36,6 @@
             this.btnRegistrarCandidato = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -48,10 +44,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label2);
@@ -146,34 +138,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "V o t e A p p";
             // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(33, 150);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(133, 176);
-            this.panel3.TabIndex = 19;
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(201, 150);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(135, 171);
-            this.panel4.TabIndex = 20;
-            // 
-            // panel5
-            // 
-            this.panel5.Location = new System.Drawing.Point(369, 150);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(137, 171);
-            this.panel5.TabIndex = 21;
-            // 
-            // panel6
-            // 
-            this.panel6.Location = new System.Drawing.Point(535, 150);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(139, 171);
-            this.panel6.TabIndex = 22;
-            // 
             // Eleccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,9 +167,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel4;
     }
 }
