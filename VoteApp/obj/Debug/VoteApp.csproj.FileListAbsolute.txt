@@ -39,3 +39,4 @@ C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteAp
 C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.exe
 C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.pdb
 C:\Users\bryan\source\repos\VoteApp\VoteApp\obj\Debug\VoteApp.ReporteVotos.resources
+C:\Users\ISABELLA MANJARRES\OneDrive\Escritorio\VoteApp\VoteApp\obj\Debug\VoteApp.ReporteVotos.resources
