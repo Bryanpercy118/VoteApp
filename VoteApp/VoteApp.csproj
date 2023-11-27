@@ -72,6 +72,12 @@
     <Compile Include="RegisterUser.Designer.cs">
       <DependentUpon>RegisterUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporteVotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteVotos.Designer.cs">
+      <DependentUpon>ReporteVotos.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Eleccion.resx">
       <DependentUpon>Eleccion.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterUser.resx">
       <DependentUpon>RegisterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteVotos.resx">
+      <DependentUpon>ReporteVotos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

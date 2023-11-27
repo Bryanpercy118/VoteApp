@@ -14,11 +14,11 @@ namespace VoteApp
 {
     public partial class RegisterUser : Form
     {
-        private UserService userService;
+        private VoterService userService;
         public RegisterUser()
         {
             InitializeComponent();
-            userService = new UserService();
+            userService = new VoterService();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -30,12 +30,13 @@ namespace VoteApp
         {
             try
             {
-                User nuevousuario = new User
+                Voter nuevousuario = new Voter
                 {
                     Id = txtDocumento.Text.Trim(),
                     Identificacion = txtDocumento.Text.Trim(),
                     Nombre = txtNombre.Text.Trim(),
                     Apellido = txtApellido.Text.Trim(),
+                    Telefono= txtNumero.Text.Trim(),
                 };
                 userService.Guardar(nuevousuario);
                 DialogResult result = MessageBox.Show("Usuario almacenado correctamente. ¿Desea volver al inicio de sesión?", "Éxito", MessageBoxButtons.OKCancel);
@@ -51,6 +52,11 @@ namespace VoteApp
             {
                 MessageBox.Show($"Error al guardar el usuario. "+ ex);
             }
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

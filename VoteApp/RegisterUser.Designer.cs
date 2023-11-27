@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtDocumento = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -36,9 +39,8 @@
             this.btnRegistrarUsuario = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtDocumento = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -46,6 +48,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.txtNumero);
+            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.txtDocumento);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label2);
@@ -58,6 +62,38 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(878, 511);
             this.panel2.TabIndex = 3;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // txtDocumento
+            // 
+            this.txtDocumento.Location = new System.Drawing.Point(355, 108);
+            this.txtDocumento.Name = "txtDocumento";
+            this.txtDocumento.Size = new System.Drawing.Size(229, 22);
+            this.txtDocumento.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(222, 108);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Identificacion";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.label2.Location = new System.Drawing.Point(276, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(344, 28);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "N u e v o      U s u a r i o";
             // 
             // txtApellido
             // 
@@ -133,36 +169,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "V o t e A p p";
             // 
-            // label2
+            // txtNumero
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.label2.Location = new System.Drawing.Point(276, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(344, 28);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "N u e v o      U s u a r i o";
+            this.txtNumero.Location = new System.Drawing.Point(355, 255);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(229, 22);
+            this.txtNumero.TabIndex = 20;
             // 
-            // txtDocumento
+            // label6
             // 
-            this.txtDocumento.Location = new System.Drawing.Point(355, 108);
-            this.txtDocumento.Name = "txtDocumento";
-            this.txtDocumento.Size = new System.Drawing.Size(229, 22);
-            this.txtDocumento.TabIndex = 18;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(222, 108);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Identificacion";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(222, 255);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 20);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Telefono";
             // 
             // RegisterUser
             // 
@@ -194,5 +218,7 @@
         private System.Windows.Forms.TextBox txtDocumento;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label label6;
     }
 }

@@ -29,10 +29,6 @@ namespace BLL
                 return "Error de Aplicacion:" + e.Message;
             }
         }
-
-
-
-
     }
 }
  
