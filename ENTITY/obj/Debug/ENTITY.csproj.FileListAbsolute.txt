@@ -1,0 +1,6 @@
+C:\Users\bryan\source\repos\VoteApp\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\bryan\source\repos\VoteApp\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\bryan\source\repos\VoteApp\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\VoteApp\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\VoteApp\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\bryan\source\repos\VoteApp\ENTITY\obj\Debug\ENTITY.pdb

@@ -1,0 +1,9 @@
+C:\Users\bryan\source\repos\VoteApp\DAL\bin\Debug\DAL.dll
+C:\Users\bryan\source\repos\VoteApp\DAL\bin\Debug\DAL.pdb
+C:\Users\bryan\source\repos\VoteApp\DAL\bin\Debug\ENTITY.dll
+C:\Users\bryan\source\repos\VoteApp\DAL\bin\Debug\ENTITY.pdb
+C:\Users\bryan\source\repos\VoteApp\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\VoteApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\VoteApp\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\bryan\source\repos\VoteApp\DAL\obj\Debug\DAL.dll
+C:\Users\bryan\source\repos\VoteApp\DAL\obj\Debug\DAL.pdb
