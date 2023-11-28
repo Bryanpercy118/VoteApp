@@ -33,7 +33,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnRegistrarCandidato = new System.Windows.Forms.Button();
+            this.btnRegistrarVoto = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
@@ -48,7 +48,7 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.btnRegistrarCandidato);
+            this.panel2.Controls.Add(this.btnRegistrarVoto);
             this.panel2.Location = new System.Drawing.Point(-4, 52);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
@@ -101,21 +101,22 @@
             this.label3.Size = new System.Drawing.Size(0, 20);
             this.label3.TabIndex = 12;
             // 
-            // btnRegistrarCandidato
+            // btnRegistrarVoto
             // 
-            this.btnRegistrarCandidato.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
-            this.btnRegistrarCandidato.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistrarCandidato.FlatAppearance.BorderSize = 0;
-            this.btnRegistrarCandidato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarCandidato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarCandidato.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnRegistrarCandidato.Location = new System.Drawing.Point(348, 465);
-            this.btnRegistrarCandidato.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnRegistrarCandidato.Name = "btnRegistrarCandidato";
-            this.btnRegistrarCandidato.Size = new System.Drawing.Size(232, 33);
-            this.btnRegistrarCandidato.TabIndex = 0;
-            this.btnRegistrarCandidato.Text = "Votar";
-            this.btnRegistrarCandidato.UseVisualStyleBackColor = false;
+            this.btnRegistrarVoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
+            this.btnRegistrarVoto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrarVoto.FlatAppearance.BorderSize = 0;
+            this.btnRegistrarVoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarVoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarVoto.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnRegistrarVoto.Location = new System.Drawing.Point(348, 465);
+            this.btnRegistrarVoto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegistrarVoto.Name = "btnRegistrarVoto";
+            this.btnRegistrarVoto.Size = new System.Drawing.Size(232, 33);
+            this.btnRegistrarVoto.TabIndex = 0;
+            this.btnRegistrarVoto.Text = "Votar";
+            this.btnRegistrarVoto.UseVisualStyleBackColor = false;
+            this.btnRegistrarVoto.Click += new System.EventHandler(this.btnRegistrarVoto_Click);
             // 
             // panel1
             // 
@@ -163,7 +164,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnRegistrarCandidato;
+        private System.Windows.Forms.Button btnRegistrarVoto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dtaElecciones;

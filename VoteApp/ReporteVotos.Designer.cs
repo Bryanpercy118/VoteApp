@@ -29,43 +29,43 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.dgvReporte = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnRegistrarCandidato = new System.Windows.Forms.Button();
+            this.btnReporte = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.dtaVotos = new System.Windows.Forms.DataGridView();
+            this.btnVotantes = new System.Windows.Forms.Button();
+            this.btnReportePartido = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReporte)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtaVotos)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel2.Controls.Add(this.dtaVotos);
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.btnReportePartido);
+            this.panel2.Controls.Add(this.btnVotantes);
+            this.panel2.Controls.Add(this.dgvReporte);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.btnRegistrarCandidato);
+            this.panel2.Controls.Add(this.btnReporte);
             this.panel2.Location = new System.Drawing.Point(2, 64);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(945, 544);
             this.panel2.TabIndex = 9;
             // 
-            // label5
+            // dgvReporte
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(17, 105);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 20);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Reporte de Votos";
+            this.dgvReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvReporte.Location = new System.Drawing.Point(21, 161);
+            this.dgvReporte.Name = "dgvReporte";
+            this.dgvReporte.RowHeadersWidth = 51;
+            this.dgvReporte.RowTemplate.Height = 24;
+            this.dgvReporte.Size = new System.Drawing.Size(558, 256);
+            this.dgvReporte.TabIndex = 18;
             // 
             // label2
             // 
@@ -89,21 +89,22 @@
             this.label3.Size = new System.Drawing.Size(0, 20);
             this.label3.TabIndex = 12;
             // 
-            // btnRegistrarCandidato
+            // btnReporte
             // 
-            this.btnRegistrarCandidato.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
-            this.btnRegistrarCandidato.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistrarCandidato.FlatAppearance.BorderSize = 0;
-            this.btnRegistrarCandidato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarCandidato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarCandidato.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnRegistrarCandidato.Location = new System.Drawing.Point(348, 465);
-            this.btnRegistrarCandidato.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnRegistrarCandidato.Name = "btnRegistrarCandidato";
-            this.btnRegistrarCandidato.Size = new System.Drawing.Size(232, 33);
-            this.btnRegistrarCandidato.TabIndex = 0;
-            this.btnRegistrarCandidato.Text = "Votar";
-            this.btnRegistrarCandidato.UseVisualStyleBackColor = false;
+            this.btnReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
+            this.btnReporte.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReporte.FlatAppearance.BorderSize = 0;
+            this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnReporte.Location = new System.Drawing.Point(21, 105);
+            this.btnReporte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(232, 33);
+            this.btnReporte.TabIndex = 0;
+            this.btnReporte.Text = "Reporte de Votos";
+            this.btnReporte.UseVisualStyleBackColor = false;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // panel1
             // 
@@ -126,15 +127,39 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "V o t e A p p";
             // 
-            // dtaVotos
+            // btnVotantes
             // 
-            this.dtaVotos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtaVotos.Location = new System.Drawing.Point(21, 161);
-            this.dtaVotos.Name = "dtaVotos";
-            this.dtaVotos.RowHeadersWidth = 51;
-            this.dtaVotos.RowTemplate.Height = 24;
-            this.dtaVotos.Size = new System.Drawing.Size(502, 256);
-            this.dtaVotos.TabIndex = 18;
+            this.btnVotantes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
+            this.btnVotantes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVotantes.FlatAppearance.BorderSize = 0;
+            this.btnVotantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVotantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVotantes.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnVotantes.Location = new System.Drawing.Point(331, 105);
+            this.btnVotantes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVotantes.Name = "btnVotantes";
+            this.btnVotantes.Size = new System.Drawing.Size(232, 33);
+            this.btnVotantes.TabIndex = 19;
+            this.btnVotantes.Text = "Reporte de Votantes";
+            this.btnVotantes.UseVisualStyleBackColor = false;
+            this.btnVotantes.Click += new System.EventHandler(this.btnVotantes_Click);
+            // 
+            // btnReportePartido
+            // 
+            this.btnReportePartido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(65)))));
+            this.btnReportePartido.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReportePartido.FlatAppearance.BorderSize = 0;
+            this.btnReportePartido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportePartido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportePartido.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnReportePartido.Location = new System.Drawing.Point(680, 105);
+            this.btnReportePartido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReportePartido.Name = "btnReportePartido";
+            this.btnReportePartido.Size = new System.Drawing.Size(232, 33);
+            this.btnReportePartido.TabIndex = 20;
+            this.btnReportePartido.Text = "Reporte de Candidatos";
+            this.btnReportePartido.UseVisualStyleBackColor = false;
+            this.btnReportePartido.Click += new System.EventHandler(this.btnReportePartido_Click);
             // 
             // ReporteVotos
             // 
@@ -147,9 +172,9 @@
             this.Text = "ReporteVotos";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReporte)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtaVotos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -157,12 +182,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnRegistrarCandidato;
+        private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dtaVotos;
+        private System.Windows.Forms.DataGridView dgvReporte;
+        private System.Windows.Forms.Button btnReportePartido;
+        private System.Windows.Forms.Button btnVotantes;
     }
 }

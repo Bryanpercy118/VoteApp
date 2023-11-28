@@ -43,9 +43,11 @@
   <ItemGroup>
     <Compile Include="Candidate.cs" />
     <Compile Include="Choice.cs" />
+    <Compile Include="ConteoVotos.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Voter.cs" />
+    <Compile Include="Voto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

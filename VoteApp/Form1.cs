@@ -75,7 +75,7 @@ namespace VoteApp
             if (ValidarInicioSesion(identificacion))
             {
                 MessageBox.Show("Inicio de sesión exitoso");
-                Eleccion eleccion = new Eleccion();
+                Eleccion eleccion = new Eleccion(identificacion);
                 eleccion.Show();
             }
             else
@@ -116,8 +116,10 @@ namespace VoteApp
             return false;
         }
 
-
-
-
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            ReporteVotos reporteVotos = new ReporteVotos();
+            reporteVotos.Show();
+        }
     }
 }

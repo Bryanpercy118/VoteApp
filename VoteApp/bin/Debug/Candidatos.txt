@@ -1,2 +1,5 @@
 1065840035;1065840035;Bryan Andres;Granados Percy;Politico
 1065568244;1065568244;Isabella;Manjarres Velasquqez;Liberal
+49770180;49770180;Martha Ines;Velasquez Castilla;Liberal
+1009823456;1009823456;isa;perez;Conservador
+123456789;123456789;luis;perez;Conservador
